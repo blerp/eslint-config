@@ -21,7 +21,9 @@
     "eslint-config-prettier": ">= 2",
     "eslint-config-xo": ">= 0.18",
     "eslint-plugin-prettier": ">= 2",
-    "prettier": ">= 1"
+    "prettier": ">= 1",
+    "eslint-plugin-flowtype": ">= 2",
+    "babel-eslint": ">= 6"
   },
   "devDependencies": {
     "eslint": "^4.1.1",
