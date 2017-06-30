@@ -7,12 +7,12 @@
   "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint -c index.js .",
+    "lint": "eslint .",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
-      "eslint -c index.js . --fix",
+      "eslint --fix",
       "git add"
     ]
   },
