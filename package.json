@@ -1,5 +1,5 @@
 {
-  "name": "@blerpapp/eslint-config",
+  "name": "eslint-config-blerp",
   "version": "1.0.0",
   "description": "Coding standard followed by all JavaScript projects at Blerp.",
   "main": "index.js",
