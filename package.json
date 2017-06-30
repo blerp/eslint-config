@@ -1,0 +1,35 @@
+{
+  "name": "@blerpapp/eslint-config",
+  "version": "1.0.0",
+  "description": "Coding standard followed by all JavaScript projects at Blerp.",
+  "main": "index.js",
+  "repository": "https://github.com/blerpapp/eslint-config.git",
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint -c index.js .",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint -c index.js . --fix",
+      "git add"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-prettier": ">= 2",
+    "eslint-config-xo": ">= 0.18",
+    "eslint-plugin-prettier": ">= 2",
+    "prettier": ">= 1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-plugin-prettier": "^2.1.2",
+    "husky": "^0.14.1",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.5.2"
+  }
+}
