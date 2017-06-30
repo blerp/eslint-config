@@ -23,7 +23,9 @@
     "eslint-plugin-prettier": ">= 2",
     "prettier": ">= 1",
     "eslint-plugin-flowtype": ">= 2",
-    "babel-eslint": ">= 6"
+    "babel-eslint": ">= 6",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-jsx-a11y": ">= 6"
   },
   "devDependencies": {
     "eslint": "^4.1.1",
