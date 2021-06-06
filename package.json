@@ -28,7 +28,7 @@
     "eslint-plugin-jsx-a11y": ">= 6"
   },
   "devDependencies": {
-    "eslint": "4.7.1",
+    "eslint": "7.28.0",
     "eslint-config-prettier": "2.5.0",
     "eslint-config-xo": "0.18.2",
     "eslint-plugin-prettier": "2.3.1",
